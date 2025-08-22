@@ -1,0 +1,19 @@
+name = "ewdev/package_template"
+version = "0.1.0"
+description = "A template for pesde packages"
+authors = ["ewdev (https://ewdev.net/)"]
+repository = "https://github.com/ewd3v/pesde_package_template"
+license = "MIT"
+private = true                                                 # for now
+
+[engines]
+pesde = "^0.7.0"
+
+[target]
+environment = "luau"
+
+[indices]
+default = "https://github.com/pesde-pkg/index"
+
+[dependencies]
+hello = { name = "pesde/hello", version = "^1.0.2" }
