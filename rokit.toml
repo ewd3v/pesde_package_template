@@ -8,3 +8,4 @@
 [tools]
 pesde = "pesde-pkg/pesde@0.7.0+registry.0.2.3"
 StyLua = "JohnnyMorganz/StyLua@2.1.0"
+luau-lsp = "JohnnyMorganz/luau-lsp@1.53.1"
