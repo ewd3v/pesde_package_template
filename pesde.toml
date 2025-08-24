@@ -15,5 +15,10 @@ environment = "luau"
 [indices]
 default = "https://github.com/pesde-pkg/index"
 
+[dev_dependencies]
+# We'll use rokit for now (conflicting lune versions)
+# stylua = { name = "pesde/stylua", version = "^2.1.0", target = "lune" }
+# luau-lsp = { name = "pesde/luau_lsp", version = "^1.53.0", target = "lune" }
+
 [dependencies]
 hello = { name = "pesde/hello", version = "^1.0.2" }
