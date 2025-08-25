@@ -1,4 +1,5 @@
 syntax = "Luau"
+line_endings = "Unix"
 indent_type = "Tabs"
 
 [sort_requires]
