@@ -53,6 +53,9 @@ jobs:
       - name: Setup pesde
         uses: ewd3v/setup-pesde@v0.1.0
 
+      - name: Setup Luau
+        uses: ewd3v/setup-luau@v0.1.0
+
       - name: Install tooling
         uses: CompeyDev/setup-rokit@v0.1.2
 
