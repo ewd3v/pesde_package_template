@@ -8,3 +8,5 @@
 [tools]
 StyLua = "JohnnyMorganz/StyLua@2.1.0"
 luau-lsp = "JohnnyMorganz/luau-lsp@1.53.1"
+selene = "Kampfkarren/selene@0.29.0"
+darklua = "seaofvoices/darklua@0.17.1"

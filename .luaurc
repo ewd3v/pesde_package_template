@@ -6,5 +6,8 @@
   "lintErrors": true,
   "typeErrors": true,
   "globals": [],
-  "aliases": {}
+  "aliases": {
+    "pkg": "luau_packages",
+    "luau_pkg": "luau_packages"
+  }
 }

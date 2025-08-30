@@ -1,3 +1,7 @@
 {
-  "recommendations": ["johnnymorganz.luau-lsp", "johnnymorganz.stylua"]
+  "recommendations": [
+    "johnnymorganz.luau-lsp",
+    "johnnymorganz.stylua",
+    "kampfkarren.selene-vscode"
+  ]
 }
