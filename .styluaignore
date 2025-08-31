@@ -3,4 +3,7 @@
 .pesde
 
 # Multitarget build output
-dist
+dist*
+
+# Type definitions
+types
