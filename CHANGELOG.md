@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.2] - 2025-08-31
+
 ### Fixed
 
 - Update pesde.toml to actually include data required for publishing
@@ -17,6 +19,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Initial release
 
-[unreleased]: https://github.com/ewd3v/pesde_package_template/compare/v0.1.1...HEAD
+[unreleased]: https://github.com/ewd3v/pesde_package_template/compare/v0.1.2...HEAD
+[0.1.2]: https://github.com/ewd3v/pesde_package_template/compare/v0.1.1...v0.1.2
 [0.1.1]: https://github.com/ewd3v/pesde_package_template/compare/v0.1.0...v0.1.1
 [0.1.0]: https://github.com/ewd3v/pesde_package_template/compare/1e62886861473c5c43ada9f5a7c81eeb9b9a6cfc...v0.1.0
