@@ -1,13 +1,13 @@
 name = "ewdev/package_template"
 version = "0.1.1"
 description = "A template for pesde packages"
-authors = ["ewdev (https://ewdev.net/)"]
+authors = ["EwDev (https://ewdev.net/)"]
 repository = "https://github.com/ewd3v/pesde_package_template"
 license = "MIT"
+includes = ["src/**", "pesde.toml", "LICENSE", "README.md"]
 
 [engines]
 pesde = "^0.7.0"
-lune = "^0.9.4"
 
 [target]
 environment = "luau"

@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Fixed
+
+- Update pesde.toml to actually include data required for publishing
+
 ## [0.1.1] - 2025-08-31
 
 ## [0.1.0] - 2025-08-31
