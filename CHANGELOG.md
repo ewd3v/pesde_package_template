@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- Fix command substituion in changelog `echo "Test?? should show full command and not substitue"`
+
 ### Fixed
 
 - Actually fixed pede.toml (and did `pesde publish --dry-run` to verify this time)

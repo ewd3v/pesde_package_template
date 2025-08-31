@@ -64,13 +64,6 @@ jobs:
         with:
           version: ${{ steps.get_version.outputs.version }}
 
-      - name: Generate changelog
-        run: |
-          cat > ${{ github.workspace }}-CHANGELOG.md << EOF
-          # Changelog
-          ${{ steps.read_changelog.outputs.changes }}
-          EOF
-
       - name: Get previous release
         id: previous_release
         run: |
@@ -84,21 +77,17 @@ jobs:
             echo "tag=${tag}" >> "$GITHUB_OUTPUT"
           fi
 
-      - name: Append full changelog
-        if: ${{ steps.previous_release.outputs.tag }}
-        run: |
-          cat >> ${{ github.workspace }}-CHANGELOG.md << EOF
-
-          **Full Changelog**: https://github.com/${{ github.repository }}/compare/${{ steps.previous_release.outputs.tag }}...${{ github.ref_name }}
-          EOF
-
       - name: Create release
         id: create_release
         uses: softprops/action-gh-release@v2
         with:
           tag_name: ${{ github.ref_name }}
           name: ${{ github.ref_name }}
-          body_path: ${{ github.workspace }}-CHANGELOG.md
+          body: |
+            # Changelog
+            ${{ steps.read_changelog.outputs.changes }}
+
+            **Full Changelog**: https://github.com/${{ github.repository }}/compare/${{ steps.previous_release.outputs.tag || github.ref_name }}...${{ github.ref_name }}
           draft: false
           prerelease: ${{ contains(github.ref_name, 'rc') }} # Checks for example v0.1.2-rc.1 etc, if you use other formats then you should change this
 
