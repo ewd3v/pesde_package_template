@@ -7,9 +7,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [0.1.0] - 2025-08-31
-
 - Initial release
-
-[unreleased]: https://github.com/ewd3v/pesde_package_template/compare/v0.1.0...HEAD
-[0.1.0]: https://github.com/ewd3v/pesde_package_template/compare/0ce1c85573c35a81df1c704e09096c627f2464d1...v0.1.0
