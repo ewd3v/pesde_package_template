@@ -2,7 +2,7 @@
 # It is not intended for manual editing.
 format = 2
 name = "ewdev/package_template"
-version = "0.1.0"
+version = "0.1.1"
 target = "luau"
 
 [graph."pesde/hello@1.0.2 luau"]
