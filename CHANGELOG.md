@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Fixed
+
+- Actually fixed pede.toml (and did `pesde publish --dry-run` to verify this time)
+
 ## [0.1.2] - 2025-08-31
 
 ### Fixed
