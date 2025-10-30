@@ -16,6 +16,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Bumped luau-lsp to v1.55.0
 - Bumped selene v0.29.0+toolchainlib.1
 - Bumped darklua to v0.17.2
+- Contents of pesde packages are now ignored by auto import by default
+- Contents of pesde packages and distribution folders are now read-only by default in VS Code
 
 ### Fixed
 
