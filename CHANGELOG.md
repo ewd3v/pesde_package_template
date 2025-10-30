@@ -12,6 +12,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - New default Lune version is 0.10.4
 - New default pesde version is 0.7.1
 - Test CI now also runs the Lune runtime
+- Bumped stylua to v2.3.0
+- Bumped luau-lsp to v1.55.0
+- Bumped selene v0.29.0+toolchainlib.1
+- Bumped darklua to v0.17.2
 
 ### Fixed
 
