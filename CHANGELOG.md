@@ -16,6 +16,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 
 - Test CI being broken because of a package unexpectedly updating to Lune v10, because SemVer technically allows it (pesde does not care if major version is zero)
+- Working directory while running tests is now actually set to the built runtime directory instead of it's parent directory
 
 ## [0.1.4] - 2025-08-31
 

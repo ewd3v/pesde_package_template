@@ -12,12 +12,16 @@ cd dist_test
 
 if [ -d luau ]; then
     echo "Running Luau tests..."
-    luau luau/tests/init.luau
+    cd luau
+    luau tests/init.luau
+    cd ..
 fi
 
 if [ -d lune ]; then
     echo "Running Lune tests..."
-    lune run lune/tests/init.luau
+    cd lune
+    lune run tests/init.luau
+    cd ..
 fi
 
 if [ -d roblox ]; then
