@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- New default Lune version is 0.10.4
+- New default pesde version is 0.7.1
+- Test CI now also runs the Lune runtime
+
+### Fixed
+
+- Test CI being broken because of a package unexpectedly updating to Lune v10, because SemVer technically allows it (pesde does not care if major version is zero)
+
 ## [0.1.4] - 2025-08-31
 
 ### Fixed
