@@ -52,9 +52,6 @@ jobs:
           tag: ${{ github.ref_name }} --force
           tag_push: --force
 
-      - name: Install tooling
-        uses: CompeyDev/setup-rokit@v0.1.2
-
       - name: Build package
         run: ./scripts/build.sh
 
