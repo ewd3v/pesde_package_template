@@ -1,5 +1,5 @@
 name = "ewdev/package_template"
-version = "0.1.4"
+version = "0.2.0"
 description = "A template for pesde packages"
 authors = ["EwDev (https://ewdev.net/)"]
 repository = "https://github.com/ewd3v/pesde_package_template"
