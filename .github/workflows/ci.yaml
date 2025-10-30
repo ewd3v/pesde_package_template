@@ -21,8 +21,8 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v5
 
-      - name: Install tooling
-        uses: CompeyDev/setup-rokit@v0.1.2
+      - name: Setup pesde
+        uses: ewd3v/setup-pesde@v0.1.0
 
       - name: Check formatting
         run: ./scripts/format_check.sh
@@ -36,9 +36,6 @@ jobs:
 
       - name: Setup pesde
         uses: ewd3v/setup-pesde@v0.1.0
-
-      - name: Install tooling
-        uses: CompeyDev/setup-rokit@v0.1.2
 
       - name: Analyze
         run: ./scripts/analyze.sh
@@ -55,9 +52,6 @@ jobs:
 
       - name: Setup Luau
         uses: ewd3v/setup-luau@v0.1.0
-
-      - name: Install tooling
-        uses: CompeyDev/setup-rokit@v0.1.2
 
       - name: Run tests
         run: ./scripts/test.sh
