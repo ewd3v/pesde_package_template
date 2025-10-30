@@ -8,7 +8,7 @@ includes = ["src/**", "pesde.toml", "LICENSE", "README.md"]
 
 [engines]
 pesde = "^0.7.0"
-lune = "^0.9.4" # Required for build script even though we're running it via `pesde x`, probably a bug with pesde
+lune = "^0.10.3" # Required for build script even though we're running it via `pesde x`, check https://github.com/pesde-pkg/pesde/issues/51
 
 [target]
 environment = "luau"
