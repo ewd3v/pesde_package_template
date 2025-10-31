@@ -40,9 +40,9 @@ jobs:
           version: ${{ steps.get_version.outputs.version }}
 
       - name: Setup pesde & update lockfile
-        uses: ewd3v/setup-pesde@v0.1.0 # Runs `pesde install` which will also update lockfile
+        uses: ewd3v/setup-pesde@v0.1.1 # Runs `pesde install` which will also update lockfile
         with:
-          token: ${{ secrets.PESDE_TOKEN }}
+          pesde_token: ${{ secrets.PESDE_TOKEN || github.token }}
 
       - name: Commit and push changes
         uses: EndBug/add-and-commit@v9
