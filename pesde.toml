@@ -5,6 +5,7 @@ authors = ["EwDev (https://ewdev.net/)"]
 repository = "https://github.com/ewd3v/pesde_package_template"
 license = "MIT"
 includes = ["src/**", "pesde.toml", "LICENSE", "README.md"]
+private = true # Prevent publishing non-built files, use the build script to generate a dist folder with the package to publish
 
 [engines]
 pesde = "^0.7.1"
