@@ -6,10 +6,7 @@ for _, runtime in config.buildRuntimes do
 	table.insert(runtimeFlags, `--{runtime}`)
 end
 
-local multitarget = process.exec("pesde", {
-	"x",
-	"ewdev/multitarget",
-	"--",
+local multitarget = process.exec("multitarget", {
 	"build",
 	"--yes",
 	"--build-files",
