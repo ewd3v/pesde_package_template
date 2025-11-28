@@ -45,7 +45,7 @@ jobs:
           pesde_token: ${{ secrets.PESDE_TOKEN || github.token }}
 
       - name: Build package
-        run: ./scripts/build.sh
+        run: pesde run build
 
       - name: Commit and push changes
         uses: EndBug/add-and-commit@v9

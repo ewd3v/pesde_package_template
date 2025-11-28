@@ -10,9 +10,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 
 - `private` is set to true by default in pesde.toml to prevent accidentally publishing the root project
-- In the release workflow, the build script now attempts to run before commiting any changes to the repository.
-- Bumpbed stylua to v2.3.1
-- Bumpbed luau-lsp to v1.56.2
+- In the release workflow, the build script now attempts to run before commiting any changes to the repository
+- Bumped stylua to v2.3.1
+- Bumped luau-lsp to v1.56.2
+- Removed Bash scripts and replaced them with Lune scripts
 
 ## [0.2.2] - 2025-10-31
 
