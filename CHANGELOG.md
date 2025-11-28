@@ -16,6 +16,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Removed Bash scripts and replaced them with Lune scripts
 - Stopped using `pesde x` for multitarget building
 
+### Fixed
+
+- Invalid syntax used to define type definitions in luau-lsp settings
+
 ## [0.2.2] - 2025-10-31
 
 ### Changed

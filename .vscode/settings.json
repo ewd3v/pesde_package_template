@@ -13,7 +13,9 @@
     "dist*/**": true
   },
   "files.eol": "\n",
-  "luau-lsp.types.definitionFiles": ["./types/darklua.d.luau"],
   "luau-lsp.completion.imports.ignoreGlobs": ["types/**", "**/.pesde/**"],
-  "luau-lsp.ignoreGlobs": ["types/**", "**/.pesde/**"]
+  "luau-lsp.ignoreGlobs": ["types/**", "**/.pesde/**"],
+  "luau-lsp.types.definitionFiles": {
+    "0": "./types/darklua.d.luau"
+  }
 }
